@@ -44,3 +44,22 @@ print('é alfanumério? ', texto.isalnum())
 print('está em maiúsculas ', texto.isupper())
 print('está em minúsculas? ', texto.islower())
 print('está capitalizado? ', texto.istitle())
+
+# atividade 7
+n = int(input('digite um número: '))
+s = n + 1
+an = n - 1
+
+print('analisando o valor {}, seu antecessor é {} e o seu sucessor é {}'.format(n,an,s))
+
+# atividade 8
+import math
+
+n = int(input('digite um número: '))
+dob = n * 2
+tri = n * 3
+rai = math.sqrt(n)
+
+print('o dobro de {} vale {}.'.format(n,dob))
+print('o triplo de {} vale {}.'.format(n,tri))
+print('a raiz quadrada de {} é igual a {}.'.format(n,rai))
