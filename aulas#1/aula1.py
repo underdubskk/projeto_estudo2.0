@@ -63,3 +63,29 @@ rai = math.sqrt(n)
 print('o dobro de {} vale {}.'.format(n,dob))
 print('o triplo de {} vale {}.'.format(n,tri))
 print('a raiz quadrada de {} é igual a {}.'.format(n,rai))
+
+# atividade 9
+nota1 = int(input('primeira nota do aluno: '))
+nota2 = int(input('segunda nota do aluno: '))
+media = int(nota1 + nota2) / 2
+
+print('a média entre {} e {} é igual a {}'.format(nota1,nota2,media))
+
+# atividade 10
+metros = float(input('digite uma distância em metros: '))
+
+km = metros / 1000
+hm = metros / 100
+dam = metros / 10
+dm = metros * 10
+cm = metros * 100
+mm = metros * 1000
+
+print('a medida de {} corresponde a '.format(metros))
+
+print('{}km'.format(km))
+print('{}hm'.format(hm))
+print('{}dam'.format(dam))
+print('{}dm'.format(dm))
+print('{}cm'.format(cm))
+print('{}mm'.format(mm))
