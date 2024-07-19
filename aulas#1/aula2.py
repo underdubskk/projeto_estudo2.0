@@ -34,3 +34,19 @@ dolar = float(dinheiro / 5)
 print('com R${} você pode comprar US${}'.format(dinheiro,dolar))
 
 # atividade 13
+largurap = float(input('largura da parde: '))
+alturap = float(input('altura da parde: '))
+
+area = float(largurap * alturap)
+litros = float(area / 2)
+
+print('sua parede tem a dimensão de {} x {} e sua área é de {}m².'.format(largurap,alturap,area))
+print('para pintar essa parede, você precisará de {}L de tinta.'.format(litros))
+
+# atividade 14
+pre = float(input('qual é o preço do produto? R$'))
+des = float(pre - (pre * 5 / 100))
+
+print('o produto que custava R${}, na promoção com desconto de 5% vai custar R${}'.format(pre,des))
+
+# atividade 15
