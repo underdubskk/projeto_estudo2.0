@@ -83,7 +83,7 @@ print('a raiz de {} é igual a {}'.format(num,raiz))
 numre = float(input('digite um valor: '))
 numin = int(numre)
 
-print('o valor digitado foi {} e a sua porção inteira é {}'.format(numre,numi))
+print('o valor digitado foi {} e a sua porção inteira é {}'.format(numre,numin))
 
 # atividade 19
 import math
