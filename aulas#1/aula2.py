@@ -1,4 +1,5 @@
 # atividade 11
+
 tabuada = int(input('digite um número para ver sua tabuada: '))
 
 t1 = int(tabuada * 1)
@@ -68,4 +69,38 @@ kd = float(input ('quantos km rodados? '))
 total = float(da * 60) + (kd * 0.15)
 print('o total a pagar é de R${}'.format(total))
 
+'''
+# como utilizar módulos dentro do python:
+-
+import math
+num = int(input('digite um número: '))
+raiz = math.sqrt(num)
+print('a raiz de {} é igual a {}'.format(num,raiz))
+-
+'''
+
 # atividade 18
+numre = float(input('digite um valor: '))
+numin = int(numre)
+
+print('o valor digitado foi {} e a sua porção inteira é {}'.format(numre,numi))
+
+# atividade 19
+import math
+co = float(input('comprimento do cateto oposto: '))
+ca = float(input('comprimento do cateto adjacente: '))
+
+hi = math.hypot(co,ca)
+print('a hipotenusa vai medir {:.2f}'.format(hi))
+
+# atividade 20
+import math
+angd = float(input('digite o ângulo que você deseja: '))
+
+seno = math.sin(math.radians(angd))
+cosseno = math.cos(math.radians(angd))
+tangente = math.tan(math.radians(angd))
+
+print('o ângulo de {} tem o SENO de {:.2f}'.format(angd,seno))
+print('o ângulo de {} tem o COSSENO de {:.2f}'.format(angd,cosseno))
+print('o ângulo de {} tem o TANGENTE de {:.2f}'.format(angd,tangente))
