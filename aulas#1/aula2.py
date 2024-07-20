@@ -50,3 +50,22 @@ des = float(pre - (pre * 5 / 100))
 print('o produto que custava R${}, na promoção com desconto de 5% vai custar R${}'.format(pre,des))
 
 # atividade 15
+sal = float(input('qual é o salário do funcionário? R$'))
+aumento = float(sal + (sal * 15 / 100))
+
+print('um funcionário que ganhava {}, com 15% de aumento, passa a receber {}'.format(sal,aumento))
+
+# atividade 16
+tempc = float(input('informe a temperatura em ºC:'))
+tempfah = float((tempc * 1.8) + 32)
+
+print('a temperatura de {}ºC corresponde a {}ºF!'.format(tempc,tempfah))
+
+# atividade 17
+da = float(input('quantos dias alugados? '))
+kd = float(input ('quantos km rodados? '))
+
+total = float(da * 60) + (kd * 0.15)
+print('o total a pagar é de R${}'.format(total))
+
+# atividade 18
