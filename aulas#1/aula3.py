@@ -1,5 +1,4 @@
 # atividade 21
-'''
 import random
 
 auluno1 = str(input('primeiro aluno: '))
@@ -25,18 +24,33 @@ escolhido = random.shuffle(nomes)
 print('a ordem apresentada será: ')
 for nome in nomes:
     print(nome)
-'''
+
 # atividade 23
 import pygame
 
 pygame.init()
-pygame.mixer.init()
-
-pygame.mixer.music.load('"C:\Users\angab\Desktop\Mogolovonio.mp3"')
+pygame.mixer.music.load("Megalovania.mp3")
 pygame.mixer.music.play()
+pygame.event.wait()
 
-while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            quit()
+'''
+# operações com string's no python
+-
+frase = 'curso em vídeo python'
+print(frase.strip[:21])
+-
+'''
+
+# atividade 24
+nome = str(input('digite seu nome completo: '))
+print('analisando seu nome...')
+
+nome_m = nome.upper()
+nome_n = nome.lower()
+nome_quantidade = len(nome.replace(' ', ' '))
+separa = nome.split()
+
+print('seu nome em maiúsculas é {}'.format(nome_m))
+print('seu nome em minúsuculas é {}'.format(nome_n))
+print('seu nome tem ao todo {}'.format(nome_quantidade))
+print('seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa[0])))
