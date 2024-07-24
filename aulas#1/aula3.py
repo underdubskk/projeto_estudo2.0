@@ -54,3 +54,28 @@ print('seu nome em maiúsculas é {}'.format(nome_m))
 print('seu nome em minúsuculas é {}'.format(nome_n))
 print('seu nome tem ao todo {}'.format(nome_quantidade))
 print('seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa[0])))
+
+# atividade 25
+num = int(input('informe um número: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+
+print('analisando o número {}'.format(num))
+
+print('unidade: {}'.format(u))
+print('dezena: {}'.format(d))
+print('centena: {}'.format(c))
+print('milhar: {}'.format(m))
+
+# atividade 26
+cidade = str(input('em que cidade você nasceu? ')).strip()
+print(cidade[:5].upper() == 'SANTO')
+
+# atividade 27
+nc = str(input('qual é o seu nome completo? ')).strip()
+print('seu nome tem Silva? {}'.format('SILVA' in nc.upper()))
+
+# atividade 28
+
