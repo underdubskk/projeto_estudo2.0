@@ -78,4 +78,18 @@ nc = str(input('qual é o seu nome completo? ')).strip()
 print('seu nome tem Silva? {}'.format('SILVA' in nc.upper()))
 
 # atividade 28
+fra = str(input('digite uma frase: ')).upper().strip()
 
+print('a letra "A" aparece {} vezes na frase.'.format(fra.count('A')))
+print('a primeira letra "A" apareceu na posição {}'.format(fra.find('A')+1))
+print('a última letra "A" apareceu na posição {}'.format(fra.rfind('A')+1))
+
+# atividade 29
+np = str(input('digite seu nome completo: ')).strip()
+nome = np.split()
+
+print('muito prazer em te conhecer!')
+print('seu primeiro nome é {}'.format(nome[0]))
+print('seu último nome é {}'.format(nome[len(nome)-1]))
+
+# atividade 30
