@@ -114,3 +114,4 @@ if pensei == cpu:
     print('PARABÉNS! Você conseguiu me vencer!')
 else:
     print('GANHEI! Eu pensei no numéro {} e não no {}'.format(cpu,pensei))
+
