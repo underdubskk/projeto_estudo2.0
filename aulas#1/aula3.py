@@ -93,3 +93,24 @@ print('seu primeiro nome é {}'.format(nome[0]))
 print('seu último nome é {}'.format(nome[len(nome)-1]))
 
 # atividade 30
+
+# atividade 30
+from random import randint
+from time import sleep
+
+cpu = randint(0,5)
+
+print('-' * 55)
+print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
+print('-' * 55)
+
+pensei = int(input("Em que número eu pensei? "))
+
+print('PROCESSANDO...')
+sleep(2)
+
+print('-' * 55)
+if pensei == cpu:
+    print('PARABÉNS! Você conseguiu me vencer!')
+else:
+    print('GANHEI! Eu pensei no numéro {} e não no {}'.format(cpu,pensei))
