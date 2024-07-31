@@ -63,3 +63,26 @@ print('O menor valor digitado foi {}'.format(menor))
 print('O maior valor digitado foi {}'.format(maior))
 
 # atividade 36
+sal = float(input('Qual é o salário do funcionário? R$'))
+aumen1 = float(sal + (sal * 10 / 100) )
+aumen2 = float(sal + (sal * 15 / 100))
+
+if sal > 1250:
+    print('Quem ganhava R${} passa a ganhar R${} agora.'.format(sal,aumen1))
+else:
+    print('Quem ganhava R${} passa a ganhar R${} agora.'.format(sal,aumen2))
+
+# atividade 37
+print('-=' * 25)
+print('            Analisador de triângulos')
+print('-=' * 25)
+
+a = float(input('Priemiro segmento: '))
+b = float(input('Segundo segmento: '))
+c = float(input('Terceiro segmento: '))
+
+if a < b + c and b < a + c and c < a + b:
+    print('Os segmentos acima PODEM FORMAR triângulo!')
+else:
+     print('Os segmentos acima NÃO PODEM FORMAR triângulo!')
+
